@@ -3,7 +3,14 @@
 import { useState } from "react";
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion";
 
-function Button({ children, className = "", variant, onClick }) {
+type ButtonProps = {
+  children: React.ReactNode;
+  className?: string;
+  variant?: "default" | "outline";
+  onClick?: () => void;
+};
+
+function Button({ children, className = "", variant = "default", onClick }: ButtonProps) {
   const base = "px-6 py-3 text-[11px] tracking-[0.2em] uppercase transition-all duration-300";
   const styles =
     variant === "outline"
