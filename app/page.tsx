@@ -92,10 +92,7 @@ export default function Home() {
         }}
       />
 
-      {/* VIDEO BACKGROUND (replace with real asset footage later) */}
-      <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-20">
-        <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4" />
-      </video>
+     
 
       {/* GRAIN */}
       <div className="pointer-events-none absolute inset-0 opacity-[0.035] mix-blend-overlay bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
