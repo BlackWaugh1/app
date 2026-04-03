@@ -92,7 +92,7 @@ export default function Home() {
         }}
       />
 
-     
+      
 
       {/* GRAIN */}
       <div className="pointer-events-none absolute inset-0 opacity-[0.035] mix-blend-overlay bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
@@ -121,7 +121,7 @@ export default function Home() {
       </header>
 
       {/* HERO */}
-      <section className="relative h-screen flex flex-col justify-center px-20 max-w-5xl">
+      <section className="relative h-screen flex flex-col justify-center px-20 max-w-5xl mx-auto">
         <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="text-5xl md:text-6xl mb-8">
           Global Capital. Strategic Execution.
         </motion.h1>
@@ -148,7 +148,7 @@ export default function Home() {
       </section>
 
       {/* PIPELINE PREVIEW */}
-      <section className="relative px-20 py-24 border-t border-white/10 max-w-5xl">
+      <section className="relative px-20 py-24 border-t border-white/10 max-w-5xl mx-auto">
         <h2 className="text-[10px] uppercase tracking-widest mb-10 text-gray-500">Active Pipeline</h2>
         <div className="grid md:grid-cols-3 gap-6 text-xs text-gray-400">
           {["Infrastructure Acquisition","Aviation Expansion","Technology Platform","Real Estate Development","Agriculture Expansion","Aquaculture Acquisition"].map((item,i)=>(
@@ -160,7 +160,7 @@ export default function Home() {
       </section>
 
       {/* SECTORS (RESTORED) */}
-      <section className="relative px-20 py-24 border-t border-white/10 max-w-5xl">
+      <section className="relative px-20 py-24 border-t border-white/10 max-w-5xl mx-auto">
         <h2 className="text-[10px] uppercase tracking-widest mb-10 text-gray-500">Investment Sectors</h2>
         <div className="grid md:grid-cols-3 gap-8 text-xs text-gray-400">
           {[
@@ -182,7 +182,7 @@ export default function Home() {
       </section>
 
       {/* GLOBAL OFFICES (RESTORED) */}
-      <section className="relative px-20 py-24 border-t border-white/10 max-w-5xl">
+      <section className="relative px-20 py-24 border-t border-white/10 max-w-5xl mx-auto">
         <h2 className="text-[10px] uppercase tracking-widest mb-10 text-gray-500">Global Offices</h2>
         <div className="grid md:grid-cols-4 gap-10 text-xs text-gray-500">
           {[
@@ -200,7 +200,7 @@ export default function Home() {
       </section>
 
       {/* LEADERSHIP */}
-      <section className="relative px-20 py-24 border-t border-white/10 max-w-5xl">
+      <section className="relative px-20 py-24 border-t border-white/10 max-w-5xl mx-auto">
         <h2 className="text-[10px] uppercase tracking-widest mb-10 text-gray-500">Leadership</h2>
         <div className="grid md:grid-cols-3 gap-10">
           {[
@@ -217,7 +217,7 @@ export default function Home() {
       </section>
 
       {/* LEGACY */}
-      <section className="relative px-20 py-24 border-t border-white/10 max-w-5xl">
+      <section className="relative px-20 py-24 border-t border-white/10 max-w-5xl mx-auto">
         <h2 className="text-[10px] uppercase tracking-widest mb-10 text-gray-500">Legacy</h2>
         <div className="max-w-2xl text-xs text-gray-400 leading-relaxed">
           BlackWaugh Group was established with a long-term mandate to build and scale enduring platforms across global markets. The firm operates with a disciplined investment philosophy, focused on capital preservation, asymmetric returns, and generational value creation.
